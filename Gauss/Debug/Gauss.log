@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\danil\source\repos\Gauss\main.cpp(87,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Gauss.vcxproj -> C:\Users\danil\source\repos\Gauss\Debug\Gauss.exe
