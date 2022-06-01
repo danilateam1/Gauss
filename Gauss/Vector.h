@@ -28,5 +28,5 @@ public:
 	double& operator[](int i);
 	double operator[](int i) const;
 	void print() const;
-	//inline friend Vector operator*(double c,const Vector& v);
+	inline friend Vector operator*(double c,const Vector& v);
 };

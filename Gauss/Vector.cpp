@@ -161,11 +161,10 @@ Vector Vector::operator+(const Vector& v) const {
 	return r;
 };
 
-/*friend Vector operator*(double c, const Vector& v) {
-Vector r(n);
-for (int i = 0; i < n; i++) {
-r[i] = data[i] * c;
+Vector operator*(double c, const Vector& v) {
+Vector r(v.n);
+for (int i = 0; i < v.getlen(); i++) {
+r[i] = v.data[i] * c;
 }
 return r;
 };
-*/

@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\danil\source\repos\Gauss\tests;C:\Users\danil\source\repos\Gauss\etalon_classes;C:\Users\danil\source\repos\Gauss</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,8 +145,12 @@
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Gauss.h" />
+    <ClInclude Include="etalon_classes\EtalonGaussSolver.h" />
+    <ClInclude Include="etalon_classes\EtalonMatrix.h" />
+    <ClInclude Include="etalon_classes\EtalonVector.h" />
+    <ClInclude Include="GaussSolver.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="tests\gtest.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

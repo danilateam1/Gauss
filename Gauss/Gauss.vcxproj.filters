@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{e4992c59-8300-493d-a204-50280cb08867}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vector.cpp">
@@ -32,8 +35,20 @@
     <ClInclude Include="Matrix.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="Gauss.h">
+    <ClInclude Include="GaussSolver.h">
       <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="etalon_classes\EtalonGaussSolver.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="etalon_classes\EtalonMatrix.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="etalon_classes\EtalonVector.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\gtest.h">
+      <Filter>tests</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
